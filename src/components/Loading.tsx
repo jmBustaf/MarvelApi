@@ -2,7 +2,7 @@ import '../styles/loading.css'
 import Box from '@mui/material/Box';
 import CircularProgress from '@mui/material/CircularProgress';
 
-function Loading(): JSX.Element {
+function Loading() {
   return (
     <Box  className=" loading">
       <h3>{'Cargando...'}</h3>

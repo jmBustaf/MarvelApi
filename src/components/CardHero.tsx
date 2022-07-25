@@ -5,7 +5,7 @@ interface CardProps {
   item: IHero
 }
 
-const CardHero = ({item}: CardProps): JSX.Element => {
+const CardHero = ({item}: CardProps) => {
 
   return (
     <>

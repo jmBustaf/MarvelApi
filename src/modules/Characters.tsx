@@ -8,7 +8,7 @@ import { useState, useEffect } from "react"
 import CardHero from "../components/CardHero"
 import { Typography, Container, Grid } from '@mui/material'
 
-const Characters = (): JSX.Element => {
+const Characters = () => {
 
   const [heros, setHeros] = useState([]);
 

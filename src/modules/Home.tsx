@@ -5,7 +5,7 @@ import Button from '@mui/material/Button'
 import { useNavigate } from 'react-router-dom'
 import Typography from '@mui/material/Typography';
 
-const Home = (): JSX.Element => {
+const Home = () => {
   const history = useNavigate()
 
   const goCharacters = () => {
