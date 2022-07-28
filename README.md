@@ -47,7 +47,6 @@ Después de realizar alguno de estos dos procesos de instalación podrás visual
 - La primera mediante el scrip principal **npm run start*
 - La segunda mediante nodemon con el script **npm run start:dev**.
 - La tercera mediante el debug de Visual Studio Code con el script **npm run debug**
--- Modificar el archivo con base en el siguiente codigo...
 - Después de realizar alguno de estos procesos podrá visualizar el programa en ejecución en el navegador de su preferencia mediante la url: *http://localhost:3000/*
 - En este enlace encontrarás el Home del proyecto el cual cuenta con un botón que deberás presionar para poder ser redirigido a la página principal donde se muestran los héroes de marvel.
 
