@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Marvel ApiRest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Proyecto personal con React.js
 
-## Available Scripts
+En este proyecto podrás encontrar la creación de una aplicación web la cual es construida con el framework React.js y que tiene como función principal consumir y mostrar los datos de un ApiRest publica como lo es  [marvel developer portal](https://developer.marvel.com/docs#!/public/getCreatorCollection_get_0) (para acceder a esta api debes registrarte primero).
 
-In the project directory, you can run:
+Puedes visualizarlo de la siguiente manera médiente Visua lStudio Code el cual se utilizó para este proyecto.
 
-### `npm start`
+### Requerimientos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+deberás descargar e instalar los siguientes programas:
+- Descargar e instalar visual studio code ->  [enlace de descarga VSC](https://code.visualstudio.com/download)
+- Descargar e instalar Node -> [enlace de descarga Node](https://nodejs.org/es/download/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Instalación
 
-### `npm test`
+Luego de tener estos requerimientos puedes:
+- Clonar repositorio 
+- Descargar archivo .zip
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Si decides realizarlo clonando el repositorio mediante Visual Studio Code deberás:
 
-### `npm run build`
+- Cree una carpeta donde se guardarán los repositorios en su computador
+- Abra el programa Visual Studio Code
+- Abra la consola de comandos de Visual Studio Code  (**f1**)
+- Escriba el comando **Git Clone**
+- En el campo que se habilita copiar la ruta: https://github.com/jmBustaf/MarvelApi.git
+- Seleccione la carpeta donde guardara el archivo a clonar(carpeta creada en un inicio)
+- En unos segundos Visual Studio Code ofrecerá la posibilidad de abrir la carpeta del repositorio clonado. Haga clic en "Abrir"
+- Visual Studio Code abrirá la carpeta del repositorio clonado mostrando todo su contenido
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Por otro lado si decides realizarlo descargando el archivo .zip beberás:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Ir a la ruta del archivo comprimido que descargaste
+- Descomprimir el archivo
+- Ingresar a la careta descomprimida
+- A este archivo darle clic derecho
+- Seleccionar la opción **Abrir con Code**
+- Visual Studio Code abrirá la carpeta del repositorio mostrando todo su contenido
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Como usarlo
 
-### `npm run eject`
+Después de realizar alguno de estos dos procesos de instalación podrás visualizar el proyecto Marvel ApiRest
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Abril la terminal de Visual Studio Code
+- Para poder ejecutar este proyecto podrás realizarlo de tres maneras:
+- La primera mediante el scrip principal **npm run start*
+- La segunda mediante nodemon con el script **npm run start:dev**.
+- La tercera mediante el debug de Visual Studio Code con el script **npm run debug**
+-- Modificar el archivo con base en el siguiente codigo...
+- Después de realizar alguno de estos procesos podrá visualizar el programa en ejecución en el navegador de su preferencia mediante la url: *http://localhost:3000/*
+- En este enlace encontrarás el Home del proyecto el cual cuenta con un botón que deberás presionar para poder ser redirigido a la página principal donde se muestran los héroes de marvel.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Ayuda
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Cualquier inconveniente comunicarse por medio del siguiente correo electrónico. *josemiguelbf8@gmail.com*
